@@ -1,0 +1,43 @@
+p{
+    margin:10px;
+    height:100px;
+    width:100px;
+    background-color:lightgrey;
+    text-align: center;
+    display:inline-block;
+}
+p#box1{
+    transfrom:skew(30deg, 0deg);
+    -webkit-transform:skew(30deg, 0deg);
+    -moz-transform: skew(30deg, 0deg);
+    -ms-transform: skew(30deg, 0deg);
+    -o-transform: skew(30deg, 0deg);
+}
+p#box2{
+    transfrom:scaleX(0.5);
+    -webkit-transform:scaleX(0.5);
+    -moz-transform:scaleX(0.5);
+    -ms-transform: scaleX(0.5);
+    -o-transform: scaleX(0.5);
+}
+p#box3{
+    transfrom:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+p#box4{
+    transfrom:translate(10px, 20px);
+    -webkit-transform:translate(10px, 20px);
+    -moz-transform:translate(10px, 20px);
+    -ms-transform: translate(10px, 20px);
+    -o-transform: translate(10px, 20px);
+}
+p#box5{
+    transfrom:skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px) ;
+    -webkit-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px) ;
+    -moz-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px) ;
+    -ms-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px) ;
+    -o-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px) ;
+}
